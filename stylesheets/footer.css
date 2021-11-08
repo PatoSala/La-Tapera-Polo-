@@ -67,6 +67,6 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .dev-info {
-        width: 90%;
+        width: 90vw;
     }
 }
