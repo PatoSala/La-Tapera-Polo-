@@ -1,0 +1,2 @@
+/* var navContent = '<div class="logo"><h2>LA TAPERA</h2><h3>P O L O</h3></div><div class="nav-links"><a href="/views/index.ejs">INICIO</a><a href="">RESORT</a><a href="">TIENDA</a><a href="">CRÍA</a></div>'
+$("nav").html(navContent) */

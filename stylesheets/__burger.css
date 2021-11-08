@@ -1,0 +1,48 @@
+.burger {
+    width: 30px;
+    height: 24px;
+
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    position: absolute;
+    right: 0;
+    margin: 0px 30px 0px 30px;
+}
+
+.level, .mid-level {
+    width: 24px;
+    height: 2px;
+    background: black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.click.first {
+    transform-origin: 0%;
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+
+.click.mid-level {
+    background: transparent;
+    transition: 0.1s;
+}
+
+.click.last {
+    transform-origin: 0%;
+    transform: rotate(-45deg);
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 768px) {
+    .burger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
