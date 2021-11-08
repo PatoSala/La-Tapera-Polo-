@@ -29,12 +29,6 @@ footer {
 }
 
 .dev-social-icon {
-    /* width: 55px;
-    height: 55px;
-    background: #33353d;
-    border-radius: 100%;
-    margin: 0px 30px;
-    text-align: center; */
     display: block;
     width:50px;
     height:50px;
@@ -69,4 +63,10 @@ footer {
 .email:hover {
     background: palevioletred;
     transition: 0.3s;
+}
+
+@media only screen and (max-width: 768px) {
+    .dev-info {
+        width: 90%;
+    }
 }
