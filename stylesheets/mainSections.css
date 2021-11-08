@@ -10,7 +10,7 @@
 .section {
     width: 25%;
     max-width: 265px;
-    margin: 0px 20px;
+    margin-top: 20px;
 
     display: flex;
     align-items: center;
@@ -79,6 +79,6 @@
     .section {
         width: 60%;
         margin: 20px 0px;
-        max-width: none;
+        max-width: 90vw;
     }
 }
