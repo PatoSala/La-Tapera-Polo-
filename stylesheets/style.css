@@ -5,6 +5,8 @@
 @import 'burger.css';
 @import 'mainLanding.css';
 @import 'mainSections.css';
+@import 'mainSocial.css';
+@import 'footer.css';
 
 body {
     margin: 0px;
