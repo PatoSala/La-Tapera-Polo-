@@ -54,6 +54,6 @@ nav .nav-links a {
 }
 
 nav .nav-links a:hover {
-    color: green;
+    color: gray;
     transition: 0.3s;
 }
