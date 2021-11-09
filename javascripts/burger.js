@@ -6,10 +6,12 @@ window.addEventListener("load",function() {
         if (count == 0) {
             count = 1;
             $(".first, .mid-level, .last").addClass("click");
+            $("menu").addClass("open");
             console.log(count);
         } else {
             count = 0;
             $(".level, .mid-level").removeClass("click");
+            $("menu").removeClass("open");
             console.log(count);
         }
     })
