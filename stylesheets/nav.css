@@ -15,14 +15,20 @@ nav {
 
 nav .logo {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     margin: 0px 15px 0px 30px;
     transition: 0.4s;
 }
 
+nav .logo .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 nav .logo:hover {
-    color: gray;
+    opacity: 0.5;
     transition: 0.2s;
 }
 
