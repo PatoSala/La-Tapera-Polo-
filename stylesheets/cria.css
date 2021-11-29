@@ -1,0 +1,84 @@
+.breeding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Roboto;
+    background: white;
+}
+
+.breeding .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.breeding .title h2 {
+    font-size: 37px;
+    font-weight: lighter;
+}
+
+.mares .line {
+    margin-top: 3px;
+}
+
+.breeding .line {
+    background: #dfbd69;
+    height: 2px;
+    width: 100px;
+}
+
+.stallions, .mares {
+    width: 75%;
+    margin: 30px 0px;
+}
+
+.breeding .carousel {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: grey transparent;
+}
+
+.breeding .carousel::-webkit-scrollbar {
+    height: 3px;
+    color: blue;
+}
+
+.breeding .carousel-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 304px;
+    min-width: 304px;
+    margin: 0px 15px;
+    margin-bottom: 20px;
+}
+
+.breeding .carousel-item .img {
+    background: blue;
+    width: 100%;
+    height: 200px;
+}
+
+.carousel-item h5 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #727272;
+}
+
+.carousel-item h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.breeding .carousel-item p {
+    max-width: inherit;
+    margin: 0px 0px 10px 0px;
+    font-weight: lighter;
+}
