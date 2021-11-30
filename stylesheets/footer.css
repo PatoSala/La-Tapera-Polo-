@@ -1,72 +1,42 @@
 footer {
-    padding: 20px 0px;
-    width: 100%;
-    background: #2c2c2e;
+    background: #121416;
+    padding: 35px 0px;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-.dev-info {
-    padding-top: 10px;
-    width: 60%;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid gray;
+    font-family: Roboto;
 }
 
-.dev-info p {
-    color: #737373;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    width: max-content;
-}
-
-.social-icons {
+.footer-links {
     display: flex;
-    width: max-content;
+    justify-content: center;
+
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 20px;
 }
 
-.dev-social-icon {
-    display: block;
-    width:50px;
-    height:50px;
-    line-height: 63px;;
-    margin-left:6px;
-    margin-right:0;
-    border-radius:100%;
-    background-color:#33353d;
-    text-align: center;
-    transition: 0.3s;
+.footer-links li {
+    cursor: pointer;
 }
 
-.dev-social-icon i {
-    color: #e5e5ea;
+.footer-links a {
+    color: white;
+    transition: 0.2s;
 }
 
-.github:hover {
-    background: black;
-    transition: 0.3s;
+.footer-links a:hover {
+    color: #dfbd69;
+    transition: 0.2s;
 }
 
-.ig:hover {
-    background: #bd2be2;
-    transition: 0.3s;
-}
-
-.linkedin:hover {
-    background: #086fcf;
-    transition: 0.3s;
-}
-
-.email:hover {
-    background: palevioletred;
-    transition: 0.3s;
+.copyright {
+    color: #a6a6a6;
+    font-size: 14px;
 }
 
 @media only screen and (max-width: 768px) {
-    .dev-info {
-        width: 90vw;
-    }
+    
 }
